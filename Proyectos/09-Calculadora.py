@@ -12,7 +12,7 @@ while True:
     op = input("Ingrese operacion: ")
     if op.lower() == "salir":
         break
-    n2 = input("Ingresa siguiente numeros: ")
+    n2 = input("Ingresa siguiente numeros por favor: ")
     if n2.lower() =="salir":
         break
     n2 = int(n2)
