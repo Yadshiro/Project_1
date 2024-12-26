@@ -1,6 +1,6 @@
 print("Bienvenido a la calculadora")
 print("Para salir escribe salir")
-print("LAs operaciones son suma, resata, mult, div")
+print("Las operaciones son suma, resata, mult, div")
 
 resultado =""
 while True:
@@ -21,10 +21,8 @@ while True:
         resultado += n2
     elif op.lower() =="resta":
         resultado -= n2
-    elif op.lower() =="multi":
-        resultado *= n2
-    elif op.lower() =="div":
-        resultado /= n2
+
+    
     else:
         print("Operacion no valida")
         break
