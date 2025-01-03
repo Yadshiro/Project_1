@@ -1,8 +1,7 @@
 def hola(nombre):
-    print("Hola Mundo")
+    print("Hola Feliz 2025")
     print(f"Bienvenido {nombre}")
 
 
 
-hola("Nicolas")
-hola("Chachito feliz")
+
